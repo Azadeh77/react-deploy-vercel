@@ -13,7 +13,8 @@ import DatabaseTable from './components/DatabaseTable';
  // </React.StrictMode>
 //);
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
     <App />
     <DatabaseTable /> {/* Include the DatabaseTable component here */}
