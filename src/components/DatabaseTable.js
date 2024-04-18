@@ -10,7 +10,7 @@ const DatabaseTable = () => {
         setLoginInformation(data.loginInformation);
       })
       .catch((error) => {
-        console.error('Error fetching data:', error);
+        console.error('Error fetching data:', response);
       });
   }, []);
 

@@ -18,8 +18,7 @@ root.render(
   <React.StrictMode>
     <App />
     <DatabaseTable /> {/* Include the DatabaseTable component here */}
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
